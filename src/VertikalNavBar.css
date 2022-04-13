@@ -1,0 +1,223 @@
+.Vertikal {
+  width: 300px;
+  height: auto;
+  padding: 15px;
+}
+.Nav_title p {
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.Nav_stitle p {
+  padding-bottom: 5px;
+}
+.filter_category ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 0;
+}
+
+.filter_category ol li {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.filter_category ol li:hover {
+  color: #ed165f;
+}
+.filter_category ol li:focus {
+  color: #ed165f;
+}
+.Sizee,
+#Color {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.Clothes_Size .Sizee div {
+  width: 45px;
+  height: 25px;
+  border: 1px solid #00000080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.1s ease;
+}
+.Clear {
+  color: gray;
+  cursor: pointer;
+}
+.Clothes_Size_title,
+.Clothes_color_title,
+.Price_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 230px;
+  padding: 10px 0;
+}
+.Clothes_Size hr,
+.Clothes_color hr,
+.Price_title hr {
+  margin-bottom: 10px;
+  width: 230px;
+}
+.Clothes_Size_title p,
+.Price_title p,
+.Clothes_color_title p {
+  font-size: 20px;
+}
+.Clear p {
+  font-size: 15px;
+}
+.Clothes_Size .Sizee div:hover {
+  background-color: #ed165f;
+  border: 1px solid #ed165f;
+  color: #fff;
+}
+.d_f,
+.d_f1,
+.d_f2,
+.d_f3,
+.d_f4,
+.d_f5,
+.d_f6,
+.d_f7,
+.d_f8,
+.d_f9,
+.d_f10,
+.d_f11 {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 13px;
+  width: 70px;
+  height: 20px;
+}
+
+.d_f div {
+  width: 30px;
+  height: 30px;
+  background-color: #f3ecdb;
+  border: 1px solid #f3ecdb;
+  border-radius: 2px;
+}
+.d_f1 div {
+  width: 30px;
+  height: 30px;
+  background-color: #465ba3;
+  border: 1px solid #465ba3;
+  border-radius: 2px;
+}
+.d_f2 div {
+  width: 30px;
+  height: 30px;
+  background-color: #000000;
+  border: 1px solid #000000;
+  border-radius: 2px;
+}
+.d_f3 div {
+  width: 30px;
+  height: 30px;
+  background-color: #f07b4e;
+  border: 1px solid #f07b4e;
+  border-radius: 2px;
+}
+.d_f4 div {
+  width: 30px;
+  height: 30px;
+  background-color: #d23c47;
+  border: 1px solid #d23c47;
+  border-radius: 2px;
+}
+.d_f5 div {
+  width: 30px;
+  height: 30px;
+  background-color: #41854d;
+  border: 1px solid #41854d;
+  border-radius: 2px;
+}
+.d_f6 div {
+  width: 30px;
+  height: 30px;
+  background-color: #665147;
+  border: 1px solid #665147;
+  border-radius: 2px;
+}
+.d_f7 div {
+  width: 30px;
+  height: 30px;
+  background-color: #893d88;
+  border: 1px solid #893d88;
+  border-radius: 2px;
+}
+.d_f8 div {
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(
+    180deg,
+    #f3b121 0%,
+    rgba(255, 203, 90, 0.567708) 53.65%,
+    #ffc954 100%
+  );
+
+  border: 1px solid #e8c15f;
+  border-radius: 2px;
+}
+.d_f9 div {
+  width: 30px;
+  height: 30px;
+  background-color: #cac1b8;
+  border: 1px solid #cac1b8;
+  border-radius: 2px;
+}
+.d_f10 div {
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 2px;
+}
+.d_f11 div {
+  width: 30px;
+  height: 30px;
+  background-color: #f2a1b1;
+  border: 1px solid #f2a1b1;
+  border-radius: 2px;
+}
+.input_price {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.input_price input {
+  width: 50px;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 2px;
+  border: 1px solid #000;
+}
+.cheack {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+}
+.cheack input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.input_price button {
+  padding: 5px;
+  background-color: #ed165f;
+  color: #fff;
+  font-weight: 600;
+  border: 1px solid #ed165f;
+  border-radius: 2px;
+  cursor: pointer;
+}

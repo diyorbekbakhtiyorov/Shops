@@ -1,0 +1,295 @@
+.Links a {
+  text-decoration: none;
+  color: currentColor;
+  font-weight: 700;
+}
+.Links p {
+  border-bottom: 1px solid #fff;
+  transition: all 0.2s ease;
+}
+.Links {
+  display: flex;
+  gap: 20px;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.Links p:hover {
+  color: #ed165f;
+  border-bottom: 1px solid #ed165f;
+}
+.Links p:focus {
+  color: #ed165f;
+  border-bottom: 1px solid #ed165f;
+  outline: none;
+}
+.Links .active > p {
+  color: #ed165f;
+  border-bottom: 1px solid #ed165f;
+}
+
+#icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Search-icon {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#search {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+svg {
+  cursor: pointer;
+}
+#search input {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 3px;
+}
+
+.home-img {
+  width: 100%;
+  height: 800px;
+  background-color: #ed165f;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.homeImg1 {
+  /* position: absolute; */
+  width: 450px;
+  z-index: 10;
+}
+.homeImg2 {
+  position: absolute;
+  width: 700px;
+}
+.explore_our_collection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+.four-points div {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.four-points div:hover {
+  border-color: #d3d3d3;
+  background-color: #d3d3d3;
+}
+
+.four-points div:first-child {
+  border-color: #fff;
+  background-color: #fff;
+}
+
+.four-points {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#body {
+  height: auto;
+  padding-top: 70px;
+  position: relative;
+}
+.explore_our_collection span {
+  animation: 1.5s anima linear infinite;
+  position: absolute;
+  top: 20px;
+}
+@keyframes anima {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  60% {
+    margin-top: 7px;
+  }
+  75% {
+    margin-top: 5px;
+  }
+  85% {
+    margin-top: 3px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+.shop_your_style_hr {
+  position: absolute;
+  width: 100%;
+  top: 90px;
+}
+.shop_your_style {
+  font-size: 35px;
+  font-weight: 600;
+  background-color: rgb(255, 255, 255);
+  padding: 0 30px;
+  z-index: 10;
+  display: inline-block;
+}
+.shop_your {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.body_texts p {
+  text-align: center;
+  width: 762px;
+  font-size: 20px;
+  display: flex;
+}
+.body_texts {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.card_img img {
+  width: 250px;
+}
+.card {
+  width: 256px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  font-weight: calc(600 - 50);
+  padding: 3px 3px 5px 3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+.card:hover {
+  /* box-shadow: 0px 0px 30px #ccc; */
+  filter: drop-shadow(0px 0px 20px rgba(204, 204, 204, 0.672));
+}
+.shopping_cards {
+  width: 1200px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: auto;
+  justify-content: start;
+  padding: 10px 0 10px 60px;
+}
+.tepaga {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  /* border: 1px solid rgb(126, 122, 122); */
+  display: flex;
+  padding: 0 11px;
+  align-items: center;
+  border-radius: 8px;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fff;
+  z-index: 10;
+}
+.tepaga p {
+  font-size: 20px;
+}
+.Pagination {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  gap: 1px;
+}
+.Pagination p {
+  font-size: 20px;
+  cursor: pointer;
+  width: 30px;
+  text-align: center;
+  border-bottom: 1px solid #979093;
+}
+.Pagination p:hover {
+  border-bottom: 2px solid #ed165f;
+}
+
+.Hover_div {
+  width: 256px;
+  height: 50px;
+  background-color: #00000069;
+  z-index: 10;
+  position: absolute;
+  top: -449px;
+  left: 0;
+  transition: all 0.7s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  /* transform: scale(0); */
+  backdrop-filter: blur(3px);
+}
+
+.card:hover .Hover_div {
+  /* transform: scale(1); */
+  top: -55px;
+}
+.Like_ {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Like_ svg {
+  font-size: 20px;
+}
+.Add_to_card {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Add_to_card button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.Add_to_card button svg {
+  font-size: 18px;
+  color: #ed165f;
+}
